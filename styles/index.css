@@ -1,0 +1,29 @@
+/* Fonts */
+@font-face {
+  font-family: 'Courier';
+  src: url('./fonts/Courier_Prime/CourierPrime-Regular.ttf');
+}
+@font-face {
+  font-family: 'Eina';
+  src: url('./fonts/Eina/Eina01-Light.ttf');
+}
+/* Styles */
+.bg-style {
+    background-image: url('../img/bg-img.webp');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover-container {
+    max-width: 42em;
+}
+h1, a[role=button] {
+    font-family: 'Courier';
+}
+p, small {
+     font-family: 'Eina';
+}
+small {
+    font-size: small!important;
+}

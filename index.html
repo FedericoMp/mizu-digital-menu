@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://federicomp.github.io/mizu-digital-menu/img/favicon.png">
+    <meta name="description" content="Check our PDF digital menu & enjoy your next meal">
+    <meta name="keywords" content="Food, Website, PDF, Digital Menu">
+    <meta name="author" content="Federico Pérez">
+    <meta property="og:title" content="Mizu | Digital Menu"/>
+    <meta property="og:description" content="Check our PDF digital menu & enjoy your next meal"/>
+    <meta property="og:image" content="https://federicomp.github.io/mizu-digital-menu/img/repo-og.jpg"/>
+    <meta property="og:url" content="https://federicomp.github.io/mizu-digital-menu" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://federicomp.github.io/mizu-digital-menu"/>
+    <title>Mizu | Digital Menu</title>
+    <link rel="stylesheet" href="https://federicomp.github.io/mizu-digital-menu/styles/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body class="d-flex h-100 text-center bg-style">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto"></header>
+        <main class="px-3 mx-auto">
+            <h1 class="display-1">Mizu</h1>
+            <p class="mb-4 w-75 mx-auto">🍣 Check our PDF digital menu & enjoy your next meal</p>
+            <div class="d-grid gap-2">
+                <a href="./pdf/ES_Mizu_Digital-Menu.pdf" class="btn btn btn-outline-dark" role="button">🇪🇸 Spanish</a>
+                <a href="./pdf/EN_Mizu_Digital-Menu.pdf" class="btn btn btn-outline-dark" role="button">🇬🇧 English</a>
+                <a href="./pdf/FR_Mizu_Digital-Menu.pdf" class="btn btn btn-outline-dark" role="button">🇫🇷 French</a>
+            </div>
+            <p class="mt-3"><span id="year">2025</span> ©</p>
+        </main>
+        <footer class="mt-auto">
+            <small>Fede Pérez - Transforming ideas into<a href="https://federicomp.github.io/portfolio/" class="ms-1" target="_blank" rel="noopener noreferrer">digital&nbsp;experiences</a>.</small>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script>
+        let yearEl = document.getElementById("year");
+        const dateYear = new Date().getFullYear();
+        yearEl.innerHTML = dateYear;
+    </script>
+  </body>
+</html>
